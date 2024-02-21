@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Intro to Statistics"
+  #image: 
+  author: "Bartłomiej Kroczek"
+  date: "2/12/2024"
+  downloads: pdf
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - test.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+csl: apa.csl
+
+format:
+  html:
+    theme: 
+      dark: darkly
+      light: flatly
+  pdf:
+    documentclass: scrreprt
+
+
+
